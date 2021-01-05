@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "id": "starter",
+  "id": "merfolk",
   "version": "${version}",
 
-  "name": "Fabric Starter",
-  "icon": "assets/starter/icon.png",
-  "description": "Template for starting out Fabric mods",
+  "name": "Merfolk",
+  "icon": "assets/merfolk/icon.png",
+  "description": "Merfolk for Minecraft 1.17 snapshots. Request from Catten7000.",
   "license": "MIT",
   "contact": {
-    "sources": "https://github.com/CottonMC/FabricStarter"
+    "sources": "https://github.com/Boundarybreaker/Merfolk"
   },
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.cottonmc.starter.FabricStarter"
+      "space.bbkr.merfolk.Merfolk"
     ]
   },
   "mixins": [
-    "mixins.starter.json"
+    "mixins.merfolk.json"
   ],
   "depends": {
     "fabricloader": ">=0.4.0"
